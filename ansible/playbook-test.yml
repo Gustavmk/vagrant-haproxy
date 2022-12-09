@@ -1,0 +1,6 @@
+- hosts: all
+  become: yes
+
+  tasks:
+    - name: Example from an Ansible Playbook
+      ansible.builtin.ping:

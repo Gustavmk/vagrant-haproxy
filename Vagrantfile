@@ -17,6 +17,6 @@ Vagrant.configure("2") do |config|
           # haproxy.vm.provision "shell", path: "haproxy.sh"
           # haproxy.vm.provision "shell", path: "haproxy-postprocessor.sh"
       end
+        
   end
-
 end
